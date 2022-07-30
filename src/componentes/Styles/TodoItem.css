@@ -1,0 +1,17 @@
+.Ico {
+    color: rgb(94, 94, 94);
+}
+
+.active {
+    color: rgb(50, 187, 50);
+}
+
+.cumple {
+    color: rgb(94, 94, 94) !important;
+    text-decoration:line-through;
+
+}
+
+.marg {
+    margin-bottom: 15px;
+}
