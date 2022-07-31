@@ -3,8 +3,11 @@ import {
   MDBInputGroup,
   MDBIcon
 } from 'mdb-react-ui-kit';
+import { TodoContext } from '../../TodoContext';
 
-export const TodoSearch = ({ serchValue, setSerchValue }) => {
+export const TodoSearch = () => {
+
+  const {serchValue, setSerchValue} = React.useContext(TodoContext)
 
   const onSearchChange = (event) => {
     console.log(event.target.value);

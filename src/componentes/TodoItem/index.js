@@ -1,6 +1,6 @@
 import React from 'react'
 import { MDBCard, MDBIcon, MDBRow, MDBCol, MDBCardBody, MDBCardText, MDBBtn } from 'mdb-react-ui-kit';
-import './Styles/TodoItem.css'
+import './TodoItem.css'
 
 export const TodoItem = (props) => {
 
